@@ -1,0 +1,23 @@
+一、form的几大属性
+　　1.method属性
+　　　　规定用于发送 form-data 的 HTTP 方法，即请求的方式；主要用来提交参数与后台数据进行交互。
+　　　　分为GET和POST两种方式，GET请求时将请求的参数直接拼接在请求路径的后面，显示在地址栏，相比POST不太安全。
+　　2.action属性
+　　　　指定请求路径的具体地址。
+　　3.target属性
+　　　　规定在何处打开 action URL：　
+　　　　　　_blank：在新的浏览器窗口中打开
+　　　　　　_parent：在父级浏览器窗口中打开
+　　　　　　_self：在当前窗口打开
+　　　　　　_top：在顶级浏览器窗口中打开
+　　　　　　framename：在指定的窗口打开
+    4.name属性
+　　　　定义该表单名称，使用较少。
+    5.HTML5中的新特性  （摘自W3school）
+　　  1.autocomplete属性
+　　　　规定 form 或 input 域应该拥有自动完成功能，即是否自动提交（on/off）。
+　　　　注：autocomplete 适用于 <form> 标签，以及以下类型的 <input> 标签：text, search, url, telephone, email, password, datepickers, range 以及 color.
+　　  2.novalidate属性
+　　　　规定在提交表单时不应该验证 form 或 input 域。（使用该属性时不验证即可直接提交，慎用）。
+　　　　使用时直接在标签中添加 novalidate="true" 
+　　　　注：novalidate 属性适用于 <form> 以及以下类型的 <input> 标签：text, search, url, telephone, email, password, date pickers, range 以及 color.
